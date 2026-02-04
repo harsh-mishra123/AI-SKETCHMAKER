@@ -22,7 +22,7 @@ export default function Gallery({ sketches, onSelectSketch, onDeleteSketch }: Ga
   if (sketches.length === 0) {
     return (
       <div className="text-center py-12">
-        <div className="text-gray-400 mb-2 text-lg">No sketches yet</div>
+        <div className="text-gray-400 mb-2 text-lg">No sketches yet, try making one</div>
         <p className="text-gray-500 text-sm">Generate your first sketch to see it here!</p>
       </div>
     );
